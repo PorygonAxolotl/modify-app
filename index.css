@@ -1,3 +1,11 @@
+body {
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: center; /* Adjust as needed */
+    background-size: cover; /* Adjust as needed */
+    z-index: -1; /* Place the background below UI elements */
+  }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -8,10 +16,10 @@
 .modify-button {
   /*font-family: 'Gentium Plus', serif;*/
   animation: none; 
-  background-color: #e66596;
+  background-color: #e6659600;
   color: black;
   text-align: center;
-  padding: 20px 40px;
+  padding: 25px 125px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
@@ -20,11 +28,11 @@
 }
 
 .modify-button:focus {
-    background-color: darkslategrey;
+    background-color: #ff7f9b50;
   }
 
   .modify-button:hover {
-    background-color: #b0354f;
+    background-color: #b0355000;
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
