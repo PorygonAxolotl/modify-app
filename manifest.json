@@ -1,0 +1,16 @@
+{
+    "name": "Modify App",
+    "short_name": "Modify",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "500x500",
+        "type": "image/png"
+      }
+    ]
+  }
+  

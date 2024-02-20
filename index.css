@@ -6,8 +6,9 @@
 }
 
 .modify-button {
+  /*font-family: 'Gentium Plus', serif;*/
   animation: none; 
-  background-color: #1ED760;
+  background-color: #e66596;
   color: black;
   text-align: center;
   padding: 20px 40px;
@@ -23,8 +24,10 @@
   }
 
   .modify-button:hover {
-    background-color: gray;
+    background-color: #b0354f;
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
 
 @keyframes button-click {
   0% {
