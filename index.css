@@ -1,0 +1,39 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Fill the viewport height */
+}
+
+.modify-button {
+  animation: none; 
+  background-color: #1ED760;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer; /* Indicate clickable element */
+  animation: button-click 0.2s ease-in-out forwards; /* Apply animation on click */
+}
+
+.modify-button:focus {
+    background-color: darkslategrey;
+  }
+
+  .modify-button:hover {
+    background-color: gray;
+  }
+
+@keyframes button-click {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
